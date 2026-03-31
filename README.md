@@ -141,5 +141,4 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Your Name
-GitHub: https://github.com/eduardzavoritnyi
+https://www.linkedin.com/in/edzavoritnyi/?locale=uk_UA
