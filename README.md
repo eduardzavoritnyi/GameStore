@@ -42,6 +42,3 @@ wp-content/
 ```bash
 git clone https://github.com/your-username/game-store.git
 
-📄 License
-
-This project is open-source and available under the MIT License.
