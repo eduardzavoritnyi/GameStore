@@ -1,44 +1,145 @@
-# 🎮 Game Store – WordPress WooCommerce Website
+# 🎮 Game Store – WordPress WooCommerce (Docker)
 
-Game Store is an eCommerce website built with WordPress and WooCommerce for selling digital and physical games. The project includes a custom theme, product catalog, and optimized user experience.
+Game Store is a modern eCommerce website built with WordPress and WooCommerce for selling digital and physical games.
+The project is fully containerized using Docker for fast and easy deployment.
 
 ---
 
 ## 🚀 Features
 
-- 🛒 WooCommerce integration
-- 🎮 Game catalog (categories, filters)
-- 🔍 Search functionality
-- 👤 User accounts & authentication
-- 💳 Payment gateway support
-- 📦 Order management
-- 📱 Responsive design
-- ⚡ Fast loading and optimized UI
+* 🛒 WooCommerce integration
+* 🎮 Game catalog with categories & filters
+* 🔍 Search functionality
+* 👤 User authentication
+* 💳 Payment system support
+* 📦 Order management
+* 📱 Responsive design
+* ⚡ Optimized performance
+* 🐳 Docker-based environment
 
 ---
 
 ## 🛠️ Tech Stack
 
-- WordPress (CMS)
-- WooCommerce (eCommerce plugin)
-- PHP
-- MySQL
-- HTML / CSS / JavaScript
+* WordPress (CMS)
+* WooCommerce (plugin)
+* PHP
+* MySQL
+* Docker & Docker Compose
+* HTML / CSS / JavaScript
+
+---
+
+## 📦 Docker Setup
+
+### 🔧 Requirements
+
+* Docker
+* Docker Compose
+
+---
+
+### ▶️ Installation & Run
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/your-username/game-store.git
+cd game-store
+```
+
+2. Create `.env` file (optional):
+
+```env
+MYSQL_ROOT_PASSWORD=root
+MYSQL_DATABASE=gamestore
+MYSQL_USER=wordpress
+MYSQL_PASSWORD=wordpress
+```
+
+3. Run containers:
+
+```bash
+docker-compose up -d
+```
+
+4. Open in browser:
+
+```
+http://localhost:8000
+```
+
+---
+
+## 🐳 Services
+
+* **wordpress** – WordPress application
+* **mysql** – MySQL database
+* **phpmyadmin** *(optional)* – database management
+
+---
+
+## ⚙️ Useful Commands
+
+```bash
+# Stop containers
+docker-compose down
+
+# Rebuild containers
+docker-compose up -d --build
+
+# View logs
+docker-compose logs -f
+```
 
 ---
 
 ## 📁 Project Structure
-wp-content/
-├── themes/
-│ └── game-store-theme/
-├── plugins/
-│ └── (WooCommerce and others)
+
+```
+.
+├── docker-compose.yml
+├── .env
+├── wp-content/
+│   ├── themes/
+│   │   └── game-store-theme/
+│   └── plugins/
+```
 
 ---
 
-## ⚙️ Installation
+## 🧩 Plugins
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/game-store.git
+* WooCommerce
+* (add your plugins here)
 
+---
+
+## 🎨 Theme
+
+Custom WordPress theme developed specifically for Game Store.
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository and submit pull requests.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Your Name
+GitHub: https://github.com/eduardzavoritnyi
