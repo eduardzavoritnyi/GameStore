@@ -111,7 +111,7 @@ docker-compose logs -f
 ## 🧩 Plugins
 
 * WooCommerce
-* (add your plugins here)
+* 
 
 ---
 
