@@ -123,7 +123,7 @@ Custom WordPress theme developed specifically for Game Store.
 
 ## 📸 Screenshots
 
-<img src="https://res.cloudinary.com/dy2v6wyku/image/upload/v1774968777/Screenshot_1_dq9xea.png" alt="Game Store" width="500" height="600">
+<img src="https://res.cloudinary.com/dy2v6wyku/image/upload/v1774968777/Screenshot_1_dq9xea.png" alt="Game Store" width="1012">
 ---
 
 ## 🤝 Contributing
